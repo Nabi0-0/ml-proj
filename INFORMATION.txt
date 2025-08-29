@@ -1,0 +1,12 @@
+Energy Consumption Forecasting (Time-Series + Anomaly Detection) – Simple Explanation
+1. Energy Consumption Forecasting:
+    Predicting how much energy (electricity, gas, etc.) 
+    will be used in the future based on past usage data.
+2. Anomaly Detection:
+    Finding unusual patterns or 
+    spikes in energy use that don’t fit the normal trend.
+3. Together:
+     building a system that can predict future 
+    energy usage and alert if something unusual happens.
+
+“It’s a system that predicts how much energy will be used and flags unusual consumption patterns automatically.”
