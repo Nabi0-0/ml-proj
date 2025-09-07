@@ -1,12 +1,55 @@
-Energy Consumption Forecasting (Time-Series + Anomaly Detection) – Simple Explanation
-1. Energy Consumption Forecasting:
-    Predicting how much energy (electricity, gas, etc.) 
-    will be used in the future based on past usage data.
-2. Anomaly Detection:
-    Finding unusual patterns or 
-    spikes in energy use that don’t fit the normal trend.
-3. Together:
-     building a system that can predict future 
-    energy usage and alert if something unusual happens.
+new project 
+ Smart Content Moderation System. 
+ This project is a machine learning powered system to automatically detect and moderate inappropriate or harmful content 
+ in the text and images on online platforms such as social media, forums, or chat applications. 
+ The system processes granted content, flagged, toxic, spammy, or offensive posts, and optionally blocks or alerts the moderator for the review. 
+ It combines natural language processing for text analysis and computer vision for image filtering, integrated with a scalable backend service.
+ 
+merits :
+   it has real-world relevance, i.e., content moderation is a very critical need for billions of online users worldwide.
+   Platform invests millions annually in moderation tech. 
+   It solves urgent content safety challenges online and to an ownership-scalable architecture design. 
+  
+demerits and challenges 
+   I will be facing are It requires large ethically sourced data set. 
+   Text can be sarcastic and image can be content-specific. 
+   Mislabeling content can frustrate users. 
+   Real-time processing demand for scalable API. 
+   Handle user data sensitivity. 
+   Avoid bias. 
 
-“It’s a system that predicts how much energy will be used and flags unusual consumption patterns automatically.”
+Flaws and Limitations with using Jigsaw dataset
+
+    Context Blindness
+        Dataset has isolated sentences → no conversation history.
+        Sarcasm, irony, and context-specific toxicity are lost.
+        Example: “Great job, genius.” → labeled as non-toxic, but could be sarcastic in a thread.
+
+    Cultural & Linguistic Bias
+
+        Mostly English, Western internet culture (Wikipedia, comments).
+        Doesn’t generalize well to multilingual, slang-heavy, or Indian context text (like Hindi-English mix, memes, local slurs).
+
+    Over-sensitivity
+
+        Words related to minority identities (e.g., “gay”, “Muslim”) sometimes over-labeled as toxic.
+        Leads to unfair flagging (bias issue).
+
+    Class Imbalance
+
+        Non-toxic comments dominate. Toxic labels are relatively fewer → imbalanced dataset.
+        Models may over-predict “non-toxic.”
+
+    Simple forms of toxicity
+
+        Captures profanity/insults fairly well.
+        Fails at subtle hate speech, coded language, dog whistles (like “skype” used as slur, or emojis as hate symbols).
+        Not Real-Time Ready
+        It’s static data.
+        Doesn’t reflect evolving language — new slangs, coded memes, political contexts (e.g., new terms emerging after 2020).
+
+
+Project Level → Intermediate
+It’s well-known, many Kaggle notebooks exist.
+
+   
